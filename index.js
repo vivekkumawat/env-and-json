@@ -11,8 +11,20 @@ function jsonToEnv(object) {
   return envFile;
 }
 
-function envToJson() {}
+function envToJson(data) {
+  if (!data || typeof data !== "string") {
+    return "Please enter an valid string type.";
+  }
+  let splitData = data.split("\n");
+  let envObjects = [];
+  splitData.forEach((element) => {
+    element = element.toLowerCase();
+    envObjects.push(element.split("="));
+  });
+  return JSON.stringify(Object.fromEntries(envObjects));
+}
 
 module.exports = {
   jsonToEnv,
+  envToJson,
 };
