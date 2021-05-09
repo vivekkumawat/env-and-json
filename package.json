@@ -1,0 +1,12 @@
+{
+  "name": "env-and-json",
+  "version": "1.0.0",
+  "description": "Fast & lightweight npm package to convert env to json and json to env.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vivek Kumawat",
+  "license": "ISC"
+}
