@@ -5,6 +5,7 @@ Fast &amp; lightweight npm package to convert env to json and json to env.
 `npm install env-and-json`
 
 # Usage
+Convert JSON object to .env file
 
 ```
 const { jsonToEnv } = require("env-and-json");

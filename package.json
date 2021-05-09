@@ -3,10 +3,22 @@
   "version": "1.0.0",
   "description": "Fast & lightweight npm package to convert env to json and json to env.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivekkumawat/env-and-json.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vivekkumawat/env-and-json/issues"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "json",
+    ".env",
+    "env",
+    "convert"
+  ],
   "author": "Vivek Kumawat",
   "license": "ISC"
 }
